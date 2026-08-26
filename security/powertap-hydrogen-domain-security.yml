@@ -1,0 +1,30 @@
+generated: '2026-08-26'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.powertapfuels.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct  6 17:36:58 2026 GMT
+  hsts: false
+- host: powertapcapital.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 25 13:00:57 2026 GMT
+  hsts: false
+domains:
+- domain: powertapfuels.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
+- domain: powertapcapital.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
+note: 'Two corporate hosts: www.powertapfuels.com (operating company, Apache/static PHP) and powertapcapital.com
+  (public holding company, WordPress on LiteSpeed). Neither sets HSTS, neither domain has DNSSEC, CAA
+  or a DMARC record; both publish SPF. powertapcapital.com additionally serves a large volume of injected
+  third-party casino/gambling link spam in its rendered HTML (491 "casino"/"slot" occurrences in the homepage
+  body on 2026-08-26), which is a strong indicator of a compromised or SEO-injected WordPress install.'

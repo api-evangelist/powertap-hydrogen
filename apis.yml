@@ -1,8 +1,18 @@
 aid: powertap-hydrogen
 name: PowerTap Hydrogen
-description: 'PowerTap Hydrogen is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'PowerTap Hydrogen Fueling Corp. is an Aliso Viejo, California hydrogen fueling technology
+  company founded in 2020 and operated as a wholly owned subsidiary of the publicly traded PowerTap Hydrogen
+  Capital Corp. (NEO: MOVE, OTC: MOTNF, FWB: 2K6B). PowerTap designs and deploys distributed, on-site
+  "blue hydrogen" production and dispensing stations built on a patented small-scale steam methane reforming
+  (SMR) platform with embedded carbon capture, converting natural gas and municipal water into high-purity
+  hydrogen at the point of use rather than trucking it in. The modular station design is marketed as deployable
+  in weeks instead of months, and the company positions it for heavy-duty trucking and light-vehicle refueling
+  as well as baseload power for data centers. PowerTap technology-based stations operate at private enterprise
+  sites and at a public station near LAX, with additional deployments cited in California, Texas, Massachusetts
+  and Maryland. The company publishes no developer program, no API, and no machine-readable contract of
+  any kind; it is profiled here as an energy-infrastructure company, not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/powertap-hydrogen/refs/heads/main/apis.yml
+image: https://www.powertapfuels.com/img/logo.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +22,13 @@ created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Energy
+- Hydrogen
+- Clean Energy
+- Fueling Infrastructure
+- Transportation
+- Carbon Capture
+- Heavy Duty Trucking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,47 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/powertap-hydrogen-domain-security.yml
 - type: Website
+  url: https://www.powertapfuels.com/
+- type: About
+  url: https://www.powertapfuels.com/company-overview.php
+- type: Technology
+  url: https://www.powertapfuels.com/powertap.php
+- type: Contact
+  url: https://www.powertapfuels.com/contact.php
+- type: InvestorRelations
+  url: https://powertapcapital.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/powertap-hydrogen-fueling-corp
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/powertap-hydrogen-stock
+- type: LLMsTxt
+  url: llms/powertap-hydrogen-llms.txt
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: PowerTap builds physical on-site hydrogen production and dispensing stations; its two corporate
+    sites are a static PHP brochure and a WordPress investor site with no developer, API or documentation
+    section, and every openapi/swagger/graphql/llms.txt/.well-known probe on both hosts returned a genuine
+    404.
+  evidence:
+  - url: https://www.powertapfuels.com/openapi.json
+    status: 404
+  - url: https://www.powertapfuels.com/.well-known/agent-card.json
+    status: 404
+  - url: https://powertapcapital.com/openapi.json
+    status: 404
+  - url: https://powertapcapital.com/llms.txt
+    status: 404
+  - url: https://powertapcapital.com/wp-json/
+    status: 200
+  - url: https://www.powertapfuels.com/
+    status: 200
+  checked: '2026-08-26'
