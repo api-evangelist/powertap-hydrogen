@@ -12,6 +12,17 @@ description: 'PowerTap Hydrogen Fueling Corp. is an Aliso Viejo, California hydr
   and Maryland. The company publishes no developer program, no API, and no machine-readable contract of
   any kind; it is profiled here as an energy-infrastructure company, not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/powertap-hydrogen/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.powertapfuels.com/img/logo.png
 x-type: company
 x-source: harvest:secondary-market
