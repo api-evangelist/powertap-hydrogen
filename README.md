@@ -64,5 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PowerTap Hydrogen is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/powertap-hydrogen-stock
+PowerTap Hydrogen Fueling Corp. is an Aliso Viejo, California hydrogen fueling technology company founded in 2020 and operated as a wholly owned subsidiary of the publicly traded PowerTap Hydrogen Capital Corp. (NEO: MOVE, OTC: MOTNF, FWB: 2K6B). PowerTap designs and deploys distributed, on-site "blue hydrogen" production and dispensing stations built on a patented small-scale steam methane reforming (SMR) platform with embedded carbon capture, converting natural gas and municipal water into high-purity hydrogen at the point of use rather than trucking it in. The modular station design is marketed as deployable in weeks instead of months, and the company positions it for heavy-duty trucking and light-vehicle refueling as well as baseload power for data centers. PowerTap technology-based stations operate at private enterprise sites and at a public station near LAX, with additional deployments cited in California, Texas, Massachusetts and Maryland. The company publishes no developer program, no API, and no machine-readable contract of any kind; it is profiled here as an energy-infrastructure company, not an API provider.
+
+**Areas:** Company · Energy · Hydrogen · Clean Energy · Fueling Infrastructure · Transportation · Carbon Capture · Heavy Duty Trucking
+
+## PowerTap Hydrogen on APIs.io
+
+Everything profiled for PowerTap Hydrogen is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/powertap-hydrogen/](https://apis.io/providers/powertap-hydrogen/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Powertap Hydrogen Domain Security](https://apis.io/security/powertap-hydrogen/powertap-hydrogen-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.powertapfuels.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/powertap-hydrogen/](https://apis.io/providers/powertap-hydrogen/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PowerTap Hydrogen: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/powertap-hydrogen/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
